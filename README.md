@@ -1,6 +1,8 @@
 # Exploratory Data Analysis (EDA) using Python
 
-This project demonstrates the process of performing Exploratory Data Analysis (EDA) using Python. It focuses on understanding the dataset through data cleaning, statistical summaries, and visualizations to uncover patterns, trends, and relationships before applying machine learning models.
+This repository contains a Jupyter Notebook demonstrating the fundamentals of Exploratory Data Analysis (EDA) using Python. The notebook covers data inspection, preprocessing, statistical analysis, and visualization techniques to better understand a dataset before applying machine learning models.
+
+A PDF version of the notebook is also included for easy viewing and reference.
 
 ---
 
@@ -9,22 +11,23 @@ This project demonstrates the process of performing Exploratory Data Analysis (E
 - Data loading and inspection
 - Data cleaning and preprocessing
 - Handling missing values
-- Statistical summary of the dataset
-- Univariate and multivariate analysis
-- Correlation analysis
+- Descriptive statistical analysis
 - Data visualization using Python libraries
-- Actionable insights from the dataset
+- Correlation analysis
+- Identification of trends and patterns
+- Well-documented Jupyter Notebook
+- PDF version of the notebook for offline reference
 
 ---
 
 ## Technologies Used
 
 - Python 3.x
+- Jupyter Notebook
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
-- Jupyter Notebook
 
 ---
 
@@ -33,29 +36,24 @@ This project demonstrates the process of performing Exploratory Data Analysis (E
 ```text
 Exploratory-Data-Analysis-EDA-using-Python/
 │
-├── data/                    # Dataset (if included)
-├── notebooks/               # Jupyter notebooks
-├── images/                  # Generated visualizations
-├── eda.ipynb                # Main EDA notebook
-├── requirements.txt         # Project dependencies
-├── README.md
-└── LICENSE
+├── ML_Exp_2.ipynb              # Jupyter Notebook containing the EDA
+├── ML_Exp_2.ipynb - Colab.pdf  # PDF version of the notebook
+└── README.md
 ```
 
 ---
 
-## Dataset
+## Objectives
 
-This project analyzes a dataset to identify:
+The notebook demonstrates how to:
 
-- Data types and structure
-- Missing values
-- Distribution of variables
-- Correlations between features
-- Outliers and anomalies
-- Trends and patterns
-
-> Replace this section with the name and source of your dataset if applicable.
+- Load and inspect datasets
+- Understand data types and structure
+- Handle missing or inconsistent data
+- Generate descriptive statistics
+- Visualize data distributions
+- Explore relationships between variables
+- Draw meaningful insights from the dataset
 
 ---
 
@@ -68,15 +66,15 @@ git clone https://github.com/JennaSanks/Exploratory-Data-Analysis-EDA-using-Pyth
 cd Exploratory-Data-Analysis-EDA-using-Python
 ```
 
-Install the required dependencies:
+Install the required libraries:
 
 ```bash
-pip install -r requirements.txt
+pip install pandas numpy matplotlib seaborn jupyter
 ```
 
 ---
 
-## Running the Project
+## Running the Notebook
 
 Launch Jupyter Notebook:
 
@@ -84,7 +82,9 @@ Launch Jupyter Notebook:
 jupyter notebook
 ```
 
-Open the notebook and execute the cells sequentially to reproduce the analysis.
+Open `ML_Exp_2.ipynb` and execute the cells sequentially.
+
+Alternatively, you can view the notebook directly through Google Colab or read the included PDF version.
 
 ---
 
@@ -95,34 +95,32 @@ Open the notebook and execute the cells sequentially to reproduce the analysis.
 3. Inspect the dataset.
 4. Clean and preprocess the data.
 5. Perform descriptive statistical analysis.
-6. Visualize distributions and relationships.
-7. Analyze feature correlations.
-8. Summarize findings and insights.
+6. Create visualizations.
+7. Analyze feature relationships.
+8. Summarize findings and observations.
 
 ---
 
 ## Visualizations
 
-The project may include visualizations such as:
+The notebook may include visualizations such as:
 
 - Histograms
 - Box Plots
-- Count Plots
 - Scatter Plots
-- Pair Plots
-- Heatmaps
-- Correlation Matrix
+- Bar Charts
+- Correlation Heatmaps
 - Distribution Plots
 
 ---
 
 ## Future Improvements
 
-- Automate EDA report generation.
 - Add interactive visualizations using Plotly.
-- Include feature engineering techniques.
-- Support larger datasets.
-- Integrate machine learning workflows.
+- Perform feature engineering.
+- Include outlier detection techniques.
+- Generate automated EDA reports.
+- Extend the notebook with machine learning models.
 
 ---
 
@@ -136,10 +134,8 @@ Contributions are welcome.
 4. Push the branch.
 5. Open a Pull Request.
 
-## Acknowledgements
+---
 
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
+## License
+
+This project is licensed under the MIT License.
